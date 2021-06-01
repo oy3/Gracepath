@@ -1,0 +1,328 @@
+ /* Style the tab */
+
+ .tab {
+   overflow: hidden;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+ }
+
+ /* Style the buttons that are used to open the tab content */
+
+ .tab button {
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 0.3s;
+ }
+
+ /* Change background color of buttons on hover */
+
+ .tab button:hover {
+   background-color: #ddd;
+ }
+
+ /* Create an active/current tablink class */
+
+ .tab button.active {
+   background-color: #ccc;
+ }
+
+ /* Style the tab content */
+
+ .tabcontent {
+   display: none;
+   padding: 6px 12px;
+   border: 1px solid #ccc;
+   border-top: none;
+ }
+
+ .imgBg {
+   background: url(/images/appointment.jpg) repeat;
+ }
+
+ .imgTxtBox {
+   width: 100%;
+   background-color: lightskyblue;
+   opacity: 0.6;
+   height: 500px;
+ }
+
+ .imgTxtBox p {
+   margin: 5%;
+   font-weight: bold;
+   color: white;
+ }
+
+ .txtBottomLeft {
+   position: absolute;
+   bottom: 10%;
+   left: 10%;
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   background: royalblue;
+   padding: 10px 50px 10px 30px;
+   border-radius: 28px 0;
+ }
+
+ .trans {
+   background-color: black;
+   color: white;
+   /* opacity: 0.5; */
+ }
+
+ .backgroundImage {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+ .features {
+   color: #fff;
+ }
+
+ .transbox {
+   background-color: black;
+   opacity: 0.8;
+   height: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .transbox h1 {
+   padding: 50px;
+   text-align: center;
+   font-weight: 300;
+   font-size: 300%;
+   color: white;
+ }
+
+ .transbox h2 {
+   color: white;
+   font-weight: bold;
+ }
+
+ .transbox i {
+   float: left;
+   font-size: 40px;
+   color: #009bdb;
+ }
+
+ .cblock {
+   margin-top: 50px;
+   padding: 10px;
+   text-align: center;
+   background-color: #f6f6f6;
+   border: 1px solid #dbdbdb;
+ }
+
+ .cblock .icon-wrap {
+   margin-top: -41px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 58px;
+   height: 58px;
+   line-height: 70px;
+   background-color: #009bdb;
+   box-shadow: 0px 0px 0px 5px #d9d9d9;
+ }
+
+ .cblock .icon-wrap i {
+   font-size: 30px;
+   color: #fff;
+ }
+
+ .contact-info-box {
+   margin-bottom: 60px;
+   position: relative;
+   text-align: center;
+   background-color: #d6f3ff;
+ }
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+   .contact-info-box {
+     margin-top: 200px;
+   }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+   .contact-info-box .box-img {
+     position: absolute;
+     right: 0;
+     bottom: 0;
+   }
+ }
+
+ .contact-info-box .info-box {
+   padding-top: 70px;
+   padding-bottom: 50px;
+ }
+
+ .contact-info-box .info-box h3 {
+   margin-top: 0;
+   margin-bottom: 20px;
+   color: #262626;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 36px;
+ }
+
+ .contact-info-box .info-box h5 {
+   margin-bottom: 20px;
+   line-height: 26px;
+   color: #66a3bc;
+   font-size: 18px;
+ }
+
+ .doctors-section-title h1, .doctors-section-title h2 {
+   display: inline-block;
+   background: royalblue;
+   padding: 0 20px;
+   margin-bottom: 0;
+   font-size: 60px;
+   color: white;
+ }
+
+ .doctors-filter-nav {
+   list-style: none;
+   text-align: center;
+   margin-top: 20px;
+   border-bottom: 1px solid #747474;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+
+ @media only screen and (max-width: 767px) {
+   .doctors-filter-nav {
+     text-align: left;
+   }
+ }
+
+ .doctors-filter-nav li.btn-active {
+   background: #b32317;
+   color: white;
+ }
+
+ .doctors-filter-nav li {
+   margin-bottom: 20px;
+   display: inline-block;
+   margin-left: 25px;
+   color: black;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 0 5px;
+   cursor: pointer;
+   -webkit-transition: .4s;
+   -o-transition: .4s;
+   transition: .4s;
+ }
+
+ @media only screen and (max-width: 479px) {
+   .doctors-slider {
+     padding: 0 15px;
+   }
+ }
+
+ .doctors-slider {
+   padding: 0 40px;
+   margin-top: 60px;
+ }
+
+ .set-bg {
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .single-doctor-body {
+   height: 450px;
+   width: 100%;
+   background: #333;
+   -o-transition: .8s;
+   transition: .8s;
+   -webkit-transition: .8s;
+   -ms-transform: translateX(0);
+   transform: translateX(0);
+   -webkit-transform: translateX(0);
+   opacity: 1;
+ }
+
+ .single-doctor-body .doctor-content {
+   opacity: 1;
+ }
+
+ .single-doctor-body .doctor-content {
+   padding: 50px;
+   height: 100%;
+   background: rgba(13, 13, 13, 0.5);
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   opacity: 0;
+ }
+
+ .widget {
+   opacity: 1;
+   -o-transition: .8s;
+   transition: .8s;
+   -webkit-transition: .8s;
+   -ms-transform: translateX(0);
+   transform: translateX(0);
+   -webkit-transform: translateX(0);
+ }
+
+ .widget .doctor-cnt {
+   padding: 50px;
+   height: 100%;
+   background: rgba(13, 13, 13, 0.5);
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   opacity: 0;
+ }
+
+ .widget:hover .doctor-cnt {
+   opacity: 1;
+ }
+
+ /* 
+ .widget:hover {
+   opacity: 0.6;
+ } */
+
+ .widget .dbox {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   color: white;
+   text-align: center;
+   background: royalblue;
+   width: 200px;
+   padding: 10px;
+   transform: scale(0.4);
+   opacity: 0;
+   z-index: 5;
+   margin-left: -81px;
+   margin-top: -40px;
+ }
+
+ .widget .dbox i {
+   font-size: 20px;
+   margin-right: .5rem;
+ }
+
+ .widget:hover .dbox {
+   transform: scale(1);
+   opacity: 1;
+ }
+
+ @media (min-width: 0px) and (max-width: 991px) {
+   .welcome-area-about {
+     background: none !important;
+   }
+ }
