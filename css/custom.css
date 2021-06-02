@@ -122,8 +122,8 @@ header {
 
 .header-bottom nav.main-menu ul.nav.navbar-nav>li a:hover, .header-bottom nav.main-menu ul.nav.navbar-nav>li a:focus, .header-bottom nav.main-menu ul.nav.navbar-nav>li a.active {
     color: #fff;
-    background: #e0160c;
-    box-shadow: 5px 5px 0 0px #fff;
+    background: #0d518c;
+    /* box-shadow: 5px 5px 0 0px #fff; */
 }
 
 .header-top {
@@ -1662,17 +1662,21 @@ nav.main-menu .navbar-toggle {
     background: transparent;
     border: 2px solid black;
     color: black;
-    padding: 14px 28px;
+    /* padding: 14px 28px; */
+    margin: 10px 28px;
     font-size: 16px;
     cursor: pointer;
 }
 
 .danger {
-    border-color: #f44336;
-    color: #f44336;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 25px;
 }
 
 .danger:hover {
-    background: #f44336;
+    background: #0d518c;
     color: white;
+    border: 2px solid #0d518c;
 }
