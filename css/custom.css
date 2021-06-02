@@ -73,7 +73,7 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #39b49a;
+    background: white;
     z-index: 11000;
     position: fixed;
     display: flex;
