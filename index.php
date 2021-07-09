@@ -580,7 +580,7 @@
       </div>
       <div class="contact-section">
          <div class="form-contant">
-            <form id="ajax-contact" action="assets/mailer.php" method="post">
+            <form id="ajax-contact" action="" method="post">
                <div class="row">
                   <div class="col-md-6">
                      <div class="form-group in_name">
